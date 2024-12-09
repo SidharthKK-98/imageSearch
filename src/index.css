@@ -1,0 +1,19 @@
+.input{
+    width:500px
+}
+.rows{
+    margin-left: 50px;
+}
+
+
+@media(max-width:480px){
+    
+    .input{
+        width: 350px;
+    }
+    .rows{
+        display: flex;
+        justify-content: center;
+        margin-left: 45px;
+    }
+}
